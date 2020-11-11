@@ -7,10 +7,10 @@ function writeCards( namesArray, event ) {
 }
 
 let countDown = 11;
-function countdown( countDown ) {
+function countDown( countdown ) {
   while ( countdown > 0 ) {
-    console.log( countDown );
+    console.log( countdown );
     countdown -= 1;
   }
-  console.log( countDown );
+  console.log( countdown );
 }
