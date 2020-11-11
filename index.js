@@ -1,4 +1,3 @@
-// Code your solutions in this file
 function writeCards( namesArray, event ) {
   let thankYouCards = []
   for ( let i = 0; i < namesArray.length; i++ ) {
@@ -7,8 +6,8 @@ function writeCards( namesArray, event ) {
   return thankYouCards
 }
 
-function countdown(countdown) {
-  while ( countdown < 10 ) {
+function countdown( countdown ) {
+  while ( countdown > 0 ) {
     console.log( countdown );
     countdown -= 1;
   }
