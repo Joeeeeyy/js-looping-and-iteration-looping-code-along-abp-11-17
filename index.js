@@ -7,8 +7,8 @@ function writeCards( namesArray, event ) {
   return thankYouCards
 }
 
-function countdown() {
-  while ( countdown > 0 ) {
+function countdown(countdown) {
+  while ( countdown < 10 ) {
     console.log( countdown );
     countdown -= 1;
   }
